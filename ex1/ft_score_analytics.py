@@ -5,7 +5,7 @@ import sys
 
 if __name__ == "__main__":
     print("=== Player Score Analytics ===")
-    final_list: list = []
+    final_list: list[int] = []
     index: int = 1
     while index < len(sys.argv):
         try:

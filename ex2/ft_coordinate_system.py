@@ -42,4 +42,4 @@ if __name__ == "__main__":
     z1 = coord1[2]
     z2 = coord2[2]
     result = math.sqrt((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)
-    print(f"Distance between the 2 sets of coordinates: {result}")
+    print(f"Distance between the 2 sets of coordinates: {round(result, 4)}")

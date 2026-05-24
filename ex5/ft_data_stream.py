@@ -12,6 +12,7 @@ def get_event() -> typing.Generator[tuple[str, str]]:
 
 
 if __name__ == "__main__":
+    print("=== Game Data Stream Processor ===")
     for i in range(0, 1000):
         store_gen: tuple[str, str] = next(get_event())
         print(f"Event {i}: Player {store_gen[0]} did action {store_gen[1]}")
